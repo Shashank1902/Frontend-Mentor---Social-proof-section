@@ -1,0 +1,274 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Spartan;
+    font-size: 15px;    
+    box-sizing: border-box;
+    margin: 80px 150px;
+}
+
+.head{
+    width: 40%;
+    float: left;
+}
+
+.head h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.intro{
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
+.reviews{ 
+    position: relative;   
+    width: 35%;
+    float: right;
+    text-align: center;  
+    font-weight: 700;
+    padding: 40px;  
+}
+.stars {
+    margin: 10px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+}
+.reviews p:nth-child(1) {
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    right: 80px;
+}
+.reviews p:nth-child(2) {
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    right: 40px;
+}
+.reviews p:nth-child(3) {
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 80px; 
+}
+
+.card {
+    position: relative;
+    width: 30%;
+    height: auto;
+    color: hsl(300, 24%, 96%);
+    background-color: hsl(300, 43%, 22%);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.5;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 15%;
+    height: auto;
+    padding: 25px;
+}
+
+.bio {
+    padding: 40px 0px 25px 0px;  
+}
+
+.buyer {
+    color: hsl(333, 80%, 67%);
+}
+
+.card p {
+    padding: 0px 25px 25px 25px;
+}
+
+.card:nth-child(1) {
+    position: relative;
+}
+
+.card:nth-child(2) {
+    position: relative;
+    top: 20px;
+}
+
+.card:nth-child(3) {
+    position: relative;
+    top: 40px;
+}
+
+.attribution {
+    margin: auto;
+    font-size: 15px;    
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+  
+@media only screen and (max-width: 376px) {
+    
+body {
+    margin: 80px 10px;
+    text-align: center;
+}
+
+.head {
+    text-align: center;
+    width: 100%;
+}
+
+.head h1{
+    width: 80%;
+    line-height: 1;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.intro {
+    margin: 50px 0px;
+}
+
+.reviews{ 
+    position: relative;   
+    width: 100%;
+    margin: auto;
+    text-align: center;  
+    font-weight: 700;
+    padding: 40px;  
+}
+.stars {
+    margin: 10px;
+    float: left;
+    position: relative;
+    bottom: 10px;
+}
+.reviews p:nth-child(1) {
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 80%;
+    padding: 0px 50px;
+    position: relative;
+    right: auto;
+}
+.reviews p:nth-child(2) {
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 100%;
+    
+    position: relative;
+    right: auto;
+}
+.reviews p:nth-child(3) {
+    color: hsl(300, 43%, 22%);
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+}
+
+}
+
+@media screen and (max-width: 1025px) {
+    body {
+        margin: 80px 50px;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:769px) {
+    body {
+        margin: 80px 130px;
+    }
+    .top {
+        display: block;
+    }
+
+    .head {
+        width: 100%;
+    }
+    .reviews {
+        width: 100%;
+    }
+    .reviews  p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews p:nth-child(1) {
+        position: relative;
+        left: 8%;
+        width: 95%;
+
+    }
+
+    .reviews p:nth-child(2) {
+        position: relative;
+        left: 8%;
+        width: 95%;
+
+    }
+
+    .reviews p:nth-child(3) {
+        position: relative;
+        left: 8%;
+        width: 95%;
+
+    }
+    .bottom {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    body {
+        margin: 30px 30px;
+        text-align: center;
+    }
+    .card {
+        width: 95%;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    
+    .reviews p:nth-child(1) {
+        position: relative;
+        left: 8%;
+        width: 80%;
+        padding: 25px 42px;
+    }
+    
+}
