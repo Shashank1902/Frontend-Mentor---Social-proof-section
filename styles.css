@@ -8,6 +8,51 @@ body{
     margin: 80px 150px;
 }
 
+
+.top-svg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.bottom-svg {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.top-m-svg {
+    visibility: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.bottom-m-svg {
+    transform: scale(1.5);
+    visibility: hidden;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+@media screen and (max-width: 430px) {
+    .top-svg {
+        visibility: hidden;
+    }
+    .bottom-svg {
+        visibility: hidden;
+    }
+    .top-m-svg {
+        visibility: visible;
+    }
+    .bottom-m-svg {
+        visibility: visible;
+    }
+}
+
+
 .head{
     width: 40%;
     float: left;
