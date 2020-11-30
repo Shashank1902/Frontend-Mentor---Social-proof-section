@@ -1,3 +1,3 @@
 # Live Website
-[Frontend-Mentor---Social-proof-section](https://frontend-mentor-social-proof-section-brown.vercel.app/){:target="_blank" rel="noopener"}
+[Frontend-Mentor---Social-proof-section](https://frontend-mentor-social-proof-section-brown.vercel.app/)
 
